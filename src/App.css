@@ -2,14 +2,9 @@
   box-sizing: border-box;
 }
 
-html {
-  max-width: 100%;
-}
-
 body {
   margin: 0;
   padding: 0;
-  width: 100%;
   background-color: #FFFFFF;
 }
 
@@ -225,6 +220,7 @@ body {
   width: 697px;
   height: 619px;
 }
+
 
 /* Products */
 

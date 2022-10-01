@@ -122,7 +122,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0px 0px 0px 206px;
+  /* padding: 0px 0px 0px 206px; */
 
   width: 1292px;
   height: 619px;
@@ -139,6 +139,7 @@ body {
 
   width: 548px;
   height: 316px;
+  margin-left: 12rem;
 }
 
 .banner-container .row .col-1 h5 {
@@ -152,12 +153,12 @@ body {
   line-height: 24px;
   letter-spacing: 0.1px;
   color: #2A7CC7;
+  margin: 0;
 }
 
 .banner-container .row .col-1 h1 {
-  width: 548px;
+  width: 568px;
   height: 80px;
-
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -165,6 +166,7 @@ body {
   line-height: 80px;
   letter-spacing: 0.2px;
   color: #252B42;
+  margin: 0;
 }
 
 .banner-container .row .col-1 h4 {
@@ -177,6 +179,7 @@ body {
   line-height: 30px;
   letter-spacing: 0.2px;
   color: #737373;
+  margin: 0;
 }
 
 .banner-container .row .col-1 .cta {
@@ -200,6 +203,7 @@ body {
   background: #23A6F0;
   border-radius: 5px;
   border: none;
+  cursor: pointer;
 }
 
 .banner-container .row .col-1 .cta button h3 {
@@ -220,6 +224,11 @@ body {
   width: 697px;
   height: 619px;
 }
+
+/* .banner-container .row .col-2 img {
+  width: 687px;
+  height: 690px;  ;
+} */
 
 
 /* Products */

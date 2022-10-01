@@ -1,5 +1,6 @@
 import React from 'react'
 import {useSelector} from 'react-redux'
+import { Link } from 'react-router-dom'
 
 function Navbar() {
     const count = useSelector(state => state.changeNumber)
@@ -9,22 +10,28 @@ function Navbar() {
         <div className='navbar-collapse'>
             <ul className='navbar-nav1'>
                 <li className='list-item'>
-                    <a href='#'>Home</a>
+                    {/* <a href='#'>Home</a> */}
+                    <Link to='/' className='link'>Home</Link>
                 </li>
                 <li className='list-item'>
-                    <a href='#'>Shop</a>
+                    {/* <a href='#'>Shop</a> */}
+                    <Link to='/shop' className='link'>Shop</Link>
                 </li>
                 <li className='list-item'>
-                    <a href='#'>About</a>
+                    {/* <a href='#'>About</a> */}
+                    <Link to='/about' className='link'>About</Link>
                 </li>
                 <li className='list-item'>
-                    <a href='#'>Blog</a>
+                    {/* <a href='#'>Blog</a> */}
+                    <Link to='/blog' className='link'>Blog</Link>
                 </li>
                 <li className='list-item'>
-                    <a href='#'>Contact</a>
+                    {/* <a href='#'>Contact</a> */}
+                    <Link to='/contact' className='link'>Contact</Link>
                 </li>
                 <li className='list-item'>
-                    <a href='#'>Pages</a>
+                    {/* <a href='#'>Pages</a> */}
+                    <Link to='/pages' className='link'>Pages</Link>
                 </li>
             </ul>
 

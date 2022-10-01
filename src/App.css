@@ -55,7 +55,19 @@ body {
   height: 25px;
 }
 
-.navbar-nav1 .list-item a {
+/* .navbar-nav1 .list-item a {
+  width: 43px;
+  height: 24px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #737373;
+  text-decoration: none;
+} */
+
+.navbar-nav1 .list-item .link {
   width: 43px;
   height: 24px;
   font-family: 'Montserrat', sans-serif;
@@ -106,6 +118,17 @@ body {
   text-align: center;
   letter-spacing: 0.2px;
   color: #23A6F0;
+}
+
+/* Route Pages */
+
+.route-pages {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #23A6F0;
+  margin: auto;
 }
 
 /* Banner */
